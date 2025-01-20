@@ -1,0 +1,199 @@
+.section1{
+    background-color: white;
+    height: 70px;
+}
+.image1{
+    height: 40px;
+    margin-top: 15px; 
+    margin-left: 70px;
+    position: fixed;
+    background-color: white;
+}
+.btn1{
+border-color: blue;
+color: blue;
+width: 130px;
+height: 30px;
+}
+.btn1:hover{
+   color: purple;
+   border-color: purple;
+}
+.para1{
+    margin-left:170px;
+    margin-top: 30px;
+    position: fixed;
+}
+.para1:hover{
+    color: purple;
+}
+.div{
+    margin-top:20px;
+    margin-right: 40px;
+    margin-left: 1120px;
+    position: fixed;
+}
+.line{
+    border-color: blue;
+    border: solid 1px blue;
+    position: fixed;
+    margin-top: 60px;
+    width: 90em;
+    align-items: center;
+}
+
+.section1,.section2,.section4,.section5{
+    background-color: rgb(226, 245, 245);
+}
+
+.section2{
+    background-image: url(./asset/girl);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.head2{
+    padding-top: 150px;
+    padding-left: 150px;
+    font-size: 40px;
+}
+.btn2{
+    background-color: rgb(70, 70, 236);
+    color: white;
+    border-color: blue;
+    height: 35px; width: 230px;
+    margin-left: 370px;
+}
+.btn2:hover{
+    border-color: purple;
+    background-color: rgb(170, 127, 170);
+}
+.para2{
+    margin-left: 350px;
+    margin-top: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.para3{
+    color: blue;
+    margin-left: 380px;
+    margin-top: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-seri;
+}
+.line2{
+    color: grey;
+    margin-top: -150px;
+    border: solid 1px;
+}
+.div2{
+   font-family:  Arial, Helvetica, sans-serif;
+   display: inline;
+   margin-left: 450px;
+   font-weight: bolder;
+   font-size: 25px;
+}
+.div3{
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    font-size: 25px;
+    margin-left: 50px;
+    font-weight: bolder;
+}
+.div2:hover{
+    color: purple;
+}
+.div3:hover{
+    color: purple;
+}
+.marquee{
+    font-size: larger;
+    margin-top: 70px; margin-bottom: 30px;
+    color: blue;
+    font-style: italic;
+    animation: multicolor-glow 3s infinite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@keyframes multicolor-glow {
+    0% {
+    }
+    25% {
+      text-shadow: 0 0 5px rgb(189, 19, 189), 0 0 15px rgb(168, 14, 168), 0 0 30px rgb(167, 12, 167);
+    }
+    50% {
+      text-shadow: 0 0 5px yellow, 0 0 15px yellow, 0 0 30px yellow;
+    }
+    75% {
+      text-shadow: 0 0 5px orange, 0 0 15px orange, 0 0 30px orange;
+    }
+    100% {
+      text-shadow: 0 0 5px rgb(179, 118, 128), 0 0 15px rgb(212, 140, 152), 0 0 30px rgb(221, 133, 147);
+    }
+  }
+
+.section4{
+    font-size: xx-large;
+    padding-left: 380px;
+    padding-top: 150px;
+    padding-bottom: 150px;;
+    color: purple;
+}
+.girl1{
+    margin-left: 700px;
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    animation: float 3s ease-in-out infinite, glow 2s ease-in-out infinite;
+}
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+@keyframes glow {
+    0%, 100% {
+        box-shadow: 0 4px 6px rgba(214, 28, 28, 0.1);
+    }
+    50% {
+        box-shadow: 0 4px 150px yellow;
+    }
+}
+.section5{
+    height: 350px;
+    padding-top: 20px;
+    margin-top: -400px;
+    padding-left: 40px;
+    background-color: antiquewhite;
+}
+.one{
+    color: brown;
+    font-size: 10px;
+}
+.two{
+    font-size:60px;
+}
+.three{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.four{
+    margin-top: 20px;
+    color: blue;
+   border-color: blue;
+}
+.five{
+    margin-top: 100px;
+    font-size: small;
+}
+.middle{
+    animation: fade 4s ease-in-out infinite;
+}
+@keyframes fade {
+    0%, 100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
